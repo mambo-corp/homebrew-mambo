@@ -1,13 +1,13 @@
 cask "mambo" do
-  version "1.0.8"
+  version "1.1.0"
 
   on_arm do
-    sha256 "df83ac12ade384c2a849c3ff9f898a40a2714463a7c718a0d4edc9b6b3c8b12d"
+    sha256 "9010721f6032d15f0b755d20158aa3ce77245ff4a2d8c852d5ba23012a1944d6"
 
     url "https://downloads.trymambo.app/v#{version}/Mambo-macos-arm64.dmg"
   end
   on_intel do
-    sha256 "4900ce017f72dd06e9418ad72060c3cf98fae1ca86bc850a470918e4b2e10978"
+    sha256 "bd026825194e63b73daa2f0be67583ca0afce85814f961e0cebb9270b7121ef5"
 
     url "https://downloads.trymambo.app/v#{version}/Mambo-macos-x86_64.dmg"
   end
